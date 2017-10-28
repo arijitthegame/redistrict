@@ -19,7 +19,7 @@ metricFunctions = {
   'schwartzberg': calculateSchwartzberg
 }
 
-test_districts = ['CD_CA_9', 'CD_IL_4', 'CD_PA_7', 'CD_CA_24', 'CD_MA_9']
+test_districts = ['CD_NC_12', 'CD_TX_4', 'CD_PA_7', 'CD_NC_1', 'CD_WI_3']
 
 metrics = {}
 for m in metricFunctions:
