@@ -66,7 +66,7 @@ class TestMetrics(TestCase):
 
 
 # Test scoresToGeojson
-
+# Adding these scores to MN data
 scores_data = scoresToGeojson(District(path=path.join(base_dir, 'data', 'MN_Senate_2017.geojson')), 'polsbypopper')
 scores = json.loads(scores_data)
 
